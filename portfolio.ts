@@ -12,42 +12,102 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Mahesh Naik',
+  title: "Hi all, I'm Mahesh Naik",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Javascript developer having an experience of web game development, web applications React.js and Blockchain development on Ethereum, Polygon, Wax, Near using Solidity, Web3.js, Ether.js, Moralis, and Truffle Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/19Ng0GLipbaG2smfebrZ6dXmdQsu_D66h/view?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'maheshnnaik',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://maheshnnaik.github.io/',
+  linkedin: 'https://www.linkedin.com/in/maheshnnaik/',
+  github: 'https://github.com/maheshnnaik',
+  instagram: 'https://www.instagram.com/maheshnnaik07',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: `Javascript Developer who wants to learn new technologies, utilize my creativity and programming
+   skills to develop better products`,
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Game Development',
+      lottieAnimationFile: '/lottie/skills/game-development.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji(
+          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+        ),
+        emoji(
+          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+        ),
+      ],
+      softwareSkills: [
+        // ? Check README To get icon details
+        {
+          skillName: 'Cocos Creator',
+          iconifyTag: 'simple-icons:cocos',
+        },
+        {
+          skillName: 'ThreeJS',
+          iconifyTag: 'logos:threejs',
+        },
+        {
+          skillName: 'Playcanvas',
+          iconifyTag: 'simple-icons:playcanvas',
+        },
+        {
+          skillName: 'JavaScript',
+          iconifyTag: 'logos:javascript',
+        },
+        {
+          skillName: 'TypeScript',
+          iconifyTag: 'devicon:typescript',
+        },
+        {
+          skillName: 'Github',
+          iconifyTag: 'akar-icons:github-fill',
+        },
+        // {
+        //   skillName: 'Docker',
+        //   iconifyTag: 'logos:docker-icon',
+        // },
+        // {
+        //   skillName: 'Github Actions',
+        //   iconifyTag: 'logos:github-actions',
+        // },
+        // {
+        //   skillName: 'Cloudinary',
+        //   iconifyTag: 'logos:cloudinary',
+        // },
+        // {
+        //   skillName: 'Nginx',
+        //   iconifyTag: 'logos:nginx',
+        // },
+        // {
+        //   skillName: 'Sentry',
+        //   iconifyTag: 'logos:sentry-icon',
+        // },
+      ],
+    },
+    {
+      title: 'Web Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive Single-Page-Apps (SPA) in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+
+        // emoji('⚡ Building responsive static websites using Next.js'),
+        // emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
       ],
       softwareSkills: [
         {
@@ -71,84 +131,16 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
           skillName: 'Redux',
           iconifyTag: 'logos:redux',
         },
         {
           skillName: 'NPM',
           iconifyTag: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
+        }
       ],
     },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
-      ],
-    },
+    
     {
       title: 'Blockchain',
       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
@@ -198,10 +190,10 @@ export const SkillBars: SkillBarsType[] = [
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
   },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
-  },
+  // {
+  //   Stack: 'Backend',
+  //   progressPercentage: '70',
+  // },
   {
     Stack: 'Programming',
     progressPercentage: '60',
@@ -299,7 +291,7 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Mahesh Naik',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Hanzla Tauqeer',
